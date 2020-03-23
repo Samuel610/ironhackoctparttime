@@ -1,27 +1,33 @@
-
-/* heading // start */
-h1{
-    color:darksalmon;
-    /* color: gold; */
+* {
+    font-family: 'Titillium Web', sans-serif;
 }
 
-h2{
+section {
+    border: 1px red dotted;
+}
+
+/* Text Styles // start */
+h1 {
+    color:darksalmon;
+}
+
+h2 {
     color: yellow;
 }
 
-h3{
-color: blueviolet;
+h3 {
+    color:blueviolet;
 }
 
-h4{
-
-}
-
-h5{
+h4 {
 
 }
 
-h6{
+h5 {
 
 }
-/* Text styles // end  */
+
+h6 {
+
+}
+/* Text Styles // end */
