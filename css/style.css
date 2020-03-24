@@ -2,8 +2,23 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
 section {
     border: 1px red dotted;
+    /* min-width: 100vh; */
+    min-height: 100vh;
+    background-color: moccasin;
+}
+
+i{
+    color: mediumpurple;
 }
 
 /* Text Styles // start */
@@ -30,4 +45,47 @@ h5 {
 h6 {
 
 }
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+li{
+display: inline;
+}
+
+
 /* Text Styles // end */
+
+
+
+
+
+
+/* classes */
+
+.bgColorSection1{
+    background-color: blueviolet;
+}
+
+.bgColorSection2{
+    background-color: chartreuse;
+}
+
+.bgColorSection3{
+    background-color: cyan;
+}
+
+.bgColorSection4{
+    background-color: greenyellow;
+    background-image: url("../img/hunters-race-MYbhN8KaaEc-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fa-search{
+    color: black;
+}
