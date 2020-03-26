@@ -8,25 +8,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ironhack Index - Welcome</title>
 
+    <!-- Icons and Fonts -->
     <script src="https://kit.fontawesome.com/bff7ea3e36.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
 
     <!-- header // start -->
-    <header>
-        logo
-        <img src="logofile.jpg" alt="">
-
-        menu
-        <menu>
-            <menuitem>Home</menuitem>
-            <menuitem>Products</menuitem>
-            <menuitem>Jobs</menuitem>
-            <menuitem>Contact</menuitem>
-        </menu>
+    <header class="row">
+        <div> <!-- col 1-->
+            <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt="Ironhack Logo">
+        </div>
+        <div> <!-- col 2-->
 
         <ul>
             <li>Home</li>
@@ -36,31 +34,28 @@
             <li><i class="fas fa-search fa-2x"></i></li>
         </ul>
 
-        
-
-
-
+        </div>
     </header>
     <!-- header // end -->
 
     <!-- hero // start -->
-    <section class="bgColorSection1">
+    <section class="bgColorSection1 hero">
         <h1>Heading for Content 1</h1>
         <h3>just another text for h3</h3>
     </section>
     <!-- hero // end -->
 
     <!-- features // start -->
-    <section class="bgColorSection2" >
-        <div>
+    <section class="row bgColorSection2" id="featuresSection">
+        <div class="centerSectionCol">
             <i class="fas fa-air-freshener fa-5x"></i>
             <h3>Feature 1</h3>
         </div>
-        <div>
+        <div class="centerSectionCol">
             <i class="fas fa-allergies fa-5x"></i>
             <h3>Feature 2</h3>
         </div>
-        <div>
+        <div class="centerSectionCol">
             <i class="fab fa-affiliatetheme fa-5x"></i>
             <h3>Feature 3</h3>
         </div>
@@ -68,10 +63,19 @@
     <!-- features // end  -->
 
     <!-- testimonials // start  -->
-    <section class="bgColorSection3">
-        <div>Testimonial 1</div>
-        <div>Testimonial 2</div>
-        <div>Testimonial 3</div>
+    <section class="row bgColorSection3">
+        <div id="testimonialSection">
+            <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg">
+            <h4>Beautiful Testimonial 1</h4>
+        </div>
+        <div id="testimonialSection">
+            <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg">
+            <h4>Beautiful Testimonial 2</h4>
+        </div>
+        <div id="testimonialSection">
+            <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg">
+            <h4>Beautiful Testimonial 3</h4>
+        </div>
     </section>
     <!-- testimonials // end  -->
 
@@ -83,9 +87,15 @@
 
 
 
-    <footer>
-        <div>logo on the footer</div>
-        <div>links</div>
+    <footer class="row">
+        <div> 
+            <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt="Ironhack Logo" width="30px"></div>
+        <div>
+            About
+            Services
+            FAQ
+
+        </div>
         <div>social networks</div>
     </footer>
 
