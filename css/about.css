@@ -1,0 +1,44 @@
+/*--------------------------------------*/
+/* HUGE COMMENT: THIS IS for mobile */
+/*--------------------------------------*/
+body{
+    background-color: papayawhip;
+}
+h1{
+    color: red;
+}
+
+h2{
+    color: gold;
+}
+
+
+/*--------------------------------------*/
+/* HUGE COMMENT: THIS IS tablet */
+/*--------------------------------------*/
+@media only screen and (min-width: 600px) {
+    body{
+        background-color: indigo;
+    }
+    h1 {
+        color: rosybrown;
+    }
+    h2{
+        color: white;
+    }
+}
+
+/*--------------------------------------*/
+/* HUGE COMMENT: THIS IS desktop */
+/*--------------------------------------*/
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: khaki;
+    }
+    h1 {
+        color: green;
+    }
+    h2 {
+        color: blueviolet;
+    }
+}
