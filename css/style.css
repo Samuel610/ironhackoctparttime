@@ -67,6 +67,7 @@ padding: 1.2em;
 }
 
 a{
+    text-decoration: none;
     color: black;
     margin: 0.8em;
 }
